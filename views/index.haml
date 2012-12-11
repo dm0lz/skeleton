@@ -4,7 +4,9 @@
 		%meta{:charset => "utf8"}
 		%meta{:content => "to fill in", :name => "description"}
 		%meta{:content => "", :name => "author"}
-		%title Skeleton
+		%title Skeleton		
+		/[if lt IE 9]
+			%script{:src => "http://html5shim.googlecode.com/svn/trunk/html5.js"}
 		%link{:rel => "stylesheet", :href => "css/bootstrap.css"}
 		%link{:rel => "stylesheet", :href => "style.css"}
 
